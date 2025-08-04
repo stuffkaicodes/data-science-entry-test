@@ -1,11 +1,8 @@
 def string_reverse(s):
-    """
-    Task 1
-    - Create a function that reverses a given string (s).
-    - s must be a string.
-    - Return the reversed string.
-    """
-    return
+    s_rev = ''
+    for i in s: 
+        s_rev = i + s_rev
+    return s_rev
 
 
 # Task 2
