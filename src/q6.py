@@ -1,11 +1,12 @@
 def find_first_negative(lst):
-    """
-    Task 1
-    - Create a function that finds the first negative number in a list (lst).
-    - Return the first negative number if found, otherwise return "No negatives".
-    - Use a while loop to implement this.
-    """
-    return
+    count = 0
+    while count < len(lst): 
+        if lst[count] < 0:
+            print(count, lst[count])
+            return lst[count]
+        count += 1 
+    return "No negatives"
+    
 
 
 # Task 2
